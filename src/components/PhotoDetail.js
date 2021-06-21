@@ -42,10 +42,11 @@ const styles = {
   },
   headerTextStyle: {
     fontSize: 15,
+    fontFamily: 'serif',
   },
   thumbnailStyle: {
-    height: 35,
-    width: 35,
+    height: 30,
+    width: 30,
   },
   thumbnailContainerStyle: {
     justifyContent: 'center',
@@ -54,7 +55,7 @@ const styles = {
     marginRight: 10,
   },
   imageStyle: {
-    height: 180,
+    height: 170,
     flex: 1,
     width: null,
   },

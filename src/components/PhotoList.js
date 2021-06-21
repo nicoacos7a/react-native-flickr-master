@@ -23,7 +23,7 @@ const PhotoList = (props) => {
   );
 
   return !photos ? (
-    <View style={{flex: 1}}>
+    <View style={styles}>
       <Text>Cargando...</Text>
     </View>
   ) : (
@@ -31,6 +31,11 @@ const PhotoList = (props) => {
       <FlatList data={photos} renderItem={renderItem} />
     </View>
   );
+};
+
+const styles = {
+  alignSelf: 'center',
+  margin: 100,
 };
 
 export default PhotoList;

@@ -16,7 +16,7 @@ const AlbumDetail = ({navigation, title, albumId}) => {
     <Card>
       <CardSection>
         <View style={headerContentStyle}>
-          <Text style={headerTextStyle}>{title}</Text>
+          <Text style={headerTextStyle}>- {title}</Text>
         </View>
       </CardSection>
 
@@ -36,7 +36,8 @@ const styles = {
     justifyContent: 'space-around',
   },
   headerTextStyle: {
-    fontSize: 20,
+    fontSize: 18,
+    fontFamily: 'serif',
   },
   thumbnailStyle: {
     height: 50,

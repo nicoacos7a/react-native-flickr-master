@@ -24,7 +24,7 @@ const AlbumList = (props) => {
   );
 
   return !albums ? (
-    <Text>Cargando...........</Text>
+    <Text>Cargando...</Text>
   ) : (
     <View style={{flex: 1}}>
       <FlatList data={albums} renderItem={renderItem} />
