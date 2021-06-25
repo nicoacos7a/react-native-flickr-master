@@ -16,7 +16,7 @@ const AlbumDetail = ({navigation, title, albumId}) => {
     <Card>
       <CardSection>
         <View style={headerContentStyle}>
-          <Text style={headerTextStyle}>- {title}</Text>
+          <Text style={headerTextStyle}>{title}</Text>
         </View>
       </CardSection>
 
@@ -38,6 +38,7 @@ const styles = {
   headerTextStyle: {
     fontSize: 18,
     fontFamily: 'serif',
+    fontWeight: 'bold',
   },
   thumbnailStyle: {
     height: 50,
